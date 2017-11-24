@@ -1,0 +1,28 @@
+#服务名称
+spring: 
+  application: 
+    name: sys-agent
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+server: 
+  port: 1111
+
+
+#注册到服务中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+feign:
+  hystrix:
+    enabled: true
+    command:
+      default:
+        execution:
+          isolation:
+            strategy: SEMAPHORE
+
+login: 
+  url: http://localhost:5555/admin/index            

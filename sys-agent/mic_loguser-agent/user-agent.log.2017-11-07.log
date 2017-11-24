@@ -1,0 +1,680 @@
+2017-11-07 16:16:01.241 [user-agent,,,] 3084 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e: startup date [Tue Nov 07 16:16:01 CST 2017]; root of context hierarchy
+2017-11-07 16:16:01.834 [user-agent,,,] 3084 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:16:01.859 [user-agent,,,] 3084 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:16:02.802 [user-agent,,,] 3084 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 16:16:02.827 [user-agent,,,] 3084 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d: startup date [Tue Nov 07 16:16:02 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e
+2017-11-07 16:16:03.844 [user-agent,,,] 3084 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 16:16:04.096 [user-agent,,,] 3084 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 16:16:04.247 [user-agent,,,] 3084 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:16:04.466 [user-agent,,,] 3084 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:16:05.854 [user-agent,,,] 3084 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 16:16:05.875 [user-agent,,,] 3084 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 16:16:05.877 [user-agent,,,] 3084 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 16:16:06.116 [user-agent,,,] 3084 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 16:16:06.117 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3290 ms
+2017-11-07 16:16:06.313 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 16:16:06.322 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 16:16:06.323 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 16:16:06.325 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 16:16:06.326 [user-agent,,,] 3084 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 16:16:06.435 [user-agent,,,] 3084 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 16:16:06 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 16:16:06.551 [user-agent,,,] 3084 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:16:08.114 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d: startup date [Tue Nov 07 16:16:02 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e
+2017-11-07 16:16:08.299 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-11-07 16:16:08.301 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest)
+2017-11-07 16:16:08.310 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-11-07 16:16:08.311 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-11-07 16:16:08.311 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-11-07 16:16:08.311 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-11-07 16:16:08.313 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-11-07 16:16:08.314 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-11-07 16:16:08.315 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-11-07 16:16:08.315 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-11-07 16:16:08.321 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-11-07 16:16:08.322 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-11-07 16:16:08.322 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-11-07 16:16:08.323 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-11-07 16:16:08.323 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-11-07 16:16:08.323 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-11-07 16:16:08.323 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-11-07 16:16:08.324 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-11-07 16:16:08.326 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-07 16:16:08.326 [user-agent,,,] 3084 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-07 16:16:08.371 [user-agent,,,] 3084 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:16:08.371 [user-agent,,,] 3084 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:16:08.426 [user-agent,,,] 3084 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:16:08.923 [user-agent,,,] 3084 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-07 16:16:08.923 [user-agent,,,] 3084 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-07 16:16:08.931 [user-agent,,,] 3084 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-07 16:16:08.931 [user-agent,,,] 3084 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-07 16:16:09.037 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-07 16:16:09.048 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-07 16:16:09.049 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-07 16:16:09.050 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-07 16:16:09.054 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-07 16:16:09.072 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-07 16:16:09.089 [user-agent,,,] 3084 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6cfcd46d,type=ConfigurationPropertiesRebinder]
+2017-11-07 16:16:09.326 [user-agent,,,] 3084 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-11-07 16:16:09.342 [user-agent,,,] 3084 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-07 16:16:10.325 [user-agent,,,] 3084 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-07 16:16:10.328 [user-agent,,,] 3084 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-07 16:16:10.485 [user-agent,,,] 3084 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-07 16:16:10.485 [user-agent,,,] 3084 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-07 16:16:10.994 [user-agent,,,] 3084 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-07 16:16:11.424 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-07 16:16:11.426 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-07 16:16:11.694 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-07 16:16:11.696 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-11-07 16:16:11.699 [user-agent,,,] 3084 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-07 16:16:11.702 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1510042571702 with initial instances count: 1
+2017-11-07 16:16:11.755 [user-agent,,,] 3084 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-11-07 16:16:11.756 [user-agent,,,] 3084 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1510042571756, current=UP, previous=STARTING]
+2017-11-07 16:16:11.761 [user-agent,,,] 3084 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-11-07 16:16:11.897 [user-agent,,,] 3084 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-11-07 16:16:11.906 [user-agent,,,] 3084 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-11-07 16:16:11.908 [user-agent,,,] 3084 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-11-07 16:16:11.913 [user-agent,,,] 3084 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 12.143 seconds (JVM running for 12.64)
+2017-11-07 16:20:03.951 [user-agent,,,] 3084 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-07 16:20:03.952 [user-agent,,,] 3084 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-07 16:20:04.341 [user-agent,,,] 3084 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 389 ms
+2017-11-07 16:21:11.433 [user-agent,,,] 3084 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-07 16:22:28.962 [user-agent,,,] 8800 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64: startup date [Tue Nov 07 16:22:28 CST 2017]; root of context hierarchy
+2017-11-07 16:22:29.727 [user-agent,,,] 8800 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:22:29.789 [user-agent,,,] 8800 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8240299c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:22:30.867 [user-agent,,,] 8800 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 16:22:30.895 [user-agent,,,] 8800 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b569985: startup date [Tue Nov 07 16:22:30 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-11-07 16:22:31.997 [user-agent,,,] 8800 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 16:22:40.155 [user-agent,,,] 8800 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 16:22:40.290 [user-agent,,,] 8800 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:22:40.437 [user-agent,,,] 8800 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8240299c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:22:41.494 [user-agent,,,] 8800 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 16:22:41.514 [user-agent,,,] 8800 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 16:22:41.517 [user-agent,,,] 8800 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 16:22:41.765 [user-agent,,,] 8800 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 16:22:41.766 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10871 ms
+2017-11-07 16:22:42.031 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 16:22:42.042 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 16:22:42.043 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 16:22:42.043 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 16:22:42.044 [user-agent,,,] 8800 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 16:22:42.160 [user-agent,,,] 8800 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1835dc92: startup date [Tue Nov 07 16:22:42 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b569985
+2017-11-07 16:22:42.190 [user-agent,,,] 8800 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:22:49.350 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b569985: startup date [Tue Nov 07 16:22:30 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-11-07 16:22:49.462 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest)
+2017-11-07 16:22:49.463 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-11-07 16:22:49.468 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-11-07 16:22:49.469 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-11-07 16:22:49.469 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-11-07 16:22:49.470 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-11-07 16:22:49.470 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-11-07 16:22:49.470 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-11-07 16:22:49.471 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-11-07 16:22:49.471 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-11-07 16:22:49.476 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-11-07 16:22:49.476 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-11-07 16:22:49.478 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-11-07 16:22:49.480 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-11-07 16:22:49.480 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-11-07 16:22:49.480 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-11-07 16:22:49.481 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-11-07 16:22:49.481 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-11-07 16:22:49.487 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-07 16:22:49.488 [user-agent,,,] 8800 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-07 16:22:49.597 [user-agent,,,] 8800 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:22:49.598 [user-agent,,,] 8800 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:22:49.688 [user-agent,,,] 8800 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-07 16:22:50.258 [user-agent,,,] 8800 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-07 16:22:50.258 [user-agent,,,] 8800 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-07 16:22:50.274 [user-agent,,,] 8800 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-07 16:22:50.275 [user-agent,,,] 8800 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-07 16:22:50.669 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-07 16:22:50.686 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-07 16:22:50.688 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-07 16:22:50.692 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-07 16:22:50.697 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-07 16:22:50.720 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-07 16:22:50.748 [user-agent,,,] 8800 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3b569985,type=ConfigurationPropertiesRebinder]
+2017-11-07 16:22:51.316 [user-agent,,,] 8800 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-11-07 16:22:51.330 [user-agent,,,] 8800 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-07 16:22:52.479 [user-agent,,,] 8800 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-07 16:22:52.482 [user-agent,,,] 8800 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-07 16:22:52.699 [user-agent,,,] 8800 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-07 16:22:52.699 [user-agent,,,] 8800 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-07 16:22:53.333 [user-agent,,,] 8800 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-07 16:22:53.610 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-07 16:22:53.610 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-07 16:22:53.610 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-07 16:22:53.610 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-07 16:22:53.611 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-07 16:22:53.611 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-07 16:22:53.611 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-07 16:22:53.846 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-07 16:22:53.849 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-11-07 16:22:53.854 [user-agent,,,] 8800 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-07 16:22:53.859 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1510042973857 with initial instances count: 4
+2017-11-07 16:22:53.899 [user-agent,,,] 8800 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-11-07 16:22:53.900 [user-agent,,,] 8800 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1510042973900, current=UP, previous=STARTING]
+2017-11-07 16:22:53.908 [user-agent,,,] 8800 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-11-07 16:22:54.028 [user-agent,,,] 8800 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-11-07 16:22:54.048 [user-agent,,,] 8800 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-11-07 16:22:54.053 [user-agent,,,] 8800 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-11-07 16:22:54.058 [user-agent,,,] 8800 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 26.556 seconds (JVM running for 28.096)
+2017-11-07 16:23:41.471 [user-agent,,,] 8800 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-07 16:23:41.471 [user-agent,,,] 8800 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-07 16:23:41.500 [user-agent,,,] 8800 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2017-11-07 16:27:53.617 [user-agent,,,] 8800 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-07 16:28:03.308 [user-agent,,,] 9548 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d9f7a80: startup date [Tue Nov 07 16:28:03 CST 2017]; root of context hierarchy
+2017-11-07 16:28:03.880 [user-agent,,,] 9548 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:28:03.928 [user-agent,,,] 9548 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75234390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:28:05.153 [user-agent,,,] 9548 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 16:28:05.206 [user-agent,,,] 9548 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4fa1da: startup date [Tue Nov 07 16:28:05 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d9f7a80
+2017-11-07 16:28:06.633 [user-agent,,,] 9548 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 16:28:08.750 [user-agent,,,] 9548 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 16:28:08.848 [user-agent,,,] 9548 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:28:08.955 [user-agent,,,] 9548 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75234390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:28:09.761 [user-agent,,,] 9548 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 16:28:09.775 [user-agent,,,] 9548 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 16:28:09.777 [user-agent,,,] 9548 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 16:28:10.043 [user-agent,,,] 9548 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 16:28:10.044 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4838 ms
+2017-11-07 16:28:10.358 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 16:28:10.367 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 16:28:10.368 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 16:28:10.368 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 16:28:10.368 [user-agent,,,] 9548 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 16:28:10.491 [user-agent,,,] 9548 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3238e2aa: startup date [Tue Nov 07 16:28:10 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4fa1da
+2017-11-07 16:28:10.519 [user-agent,,,] 9548 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:28:15.726 [user-agent,,,] 9548 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2017-11-07 16:28:15.727 [user-agent,,,] 9548 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3238e2aa: startup date [Tue Nov 07 16:28:10 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4fa1da
+2017-11-07 16:28:15.729 [user-agent,,,] 9548 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-11-07 16:28:15.843 [user-agent,,,] 9548 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-07 16:28:15.852 [user-agent,,,] 9548 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:501)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1189)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:261)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstances(NamedContextFactory.java:127)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:114)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:156)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.web.context.request.RequestContextHolder.currentRequestAttributes(RequestContextHolder.java:131)
+	at com.duo.user.agent.controller.FeignConfig.requestInterceptor(FeignConfig.java:16)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$cb75b4c8.CGLIB$requestInterceptor$0(<generated>)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$cb75b4c8$$FastClassBySpringCGLIB$$7da5c2d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$cb75b4c8.requestInterceptor(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 47 common frames omitted
+
+2017-11-07 16:28:51.694 [user-agent,,,] 9680 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@112f364d: startup date [Tue Nov 07 16:28:51 CST 2017]; root of context hierarchy
+2017-11-07 16:28:52.192 [user-agent,,,] 9680 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:28:52.270 [user-agent,,,] 9680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$933b7d46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:28:53.558 [user-agent,,,] 9680 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 16:28:53.577 [user-agent,,,] 9680 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccd1bc3: startup date [Tue Nov 07 16:28:53 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@112f364d
+2017-11-07 16:28:54.655 [user-agent,,,] 9680 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 16:28:54.839 [user-agent,,,] 9680 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 16:28:54.932 [user-agent,,,] 9680 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:28:55.054 [user-agent,,,] 9680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$933b7d46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:28:55.939 [user-agent,,,] 9680 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 16:28:55.956 [user-agent,,,] 9680 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 16:28:55.958 [user-agent,,,] 9680 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 16:28:56.192 [user-agent,,,] 9680 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 16:28:56.193 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2616 ms
+2017-11-07 16:28:56.480 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 16:28:56.488 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 16:28:56.489 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 16:28:56.490 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 16:28:56.490 [user-agent,,,] 9680 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 16:28:56.629 [user-agent,,,] 9680 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c380bd8: startup date [Tue Nov 07 16:28:56 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccd1bc3
+2017-11-07 16:28:56.661 [user-agent,,,] 9680 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:29:14.758 [user-agent,,,] 9680 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2017-11-07 16:29:14.760 [user-agent,,,] 9680 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c380bd8: startup date [Tue Nov 07 16:28:56 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccd1bc3
+2017-11-07 16:29:14.763 [user-agent,,,] 9680 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-11-07 16:29:14.874 [user-agent,,,] 9680 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-07 16:29:14.882 [user-agent,,,] 9680 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:501)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1189)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:261)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstances(NamedContextFactory.java:127)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:114)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:156)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.web.context.request.RequestContextHolder.currentRequestAttributes(RequestContextHolder.java:131)
+	at com.duo.user.agent.controller.FeignConfig.requestInterceptor(FeignConfig.java:16)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$e98dee7e.CGLIB$requestInterceptor$0(<generated>)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$e98dee7e$$FastClassBySpringCGLIB$$630a71b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$e98dee7e.requestInterceptor(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 47 common frames omitted
+
+2017-11-07 16:32:20.979 [user-agent,,,] 3176 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e: startup date [Tue Nov 07 16:32:20 CST 2017]; root of context hierarchy
+2017-11-07 16:32:21.491 [user-agent,,,] 3176 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:32:21.526 [user-agent,,,] 3176 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:32:22.528 [user-agent,,,] 3176 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 16:32:22.555 [user-agent,,,] 3176 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d: startup date [Tue Nov 07 16:32:22 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e
+2017-11-07 16:32:23.489 [user-agent,,,] 3176 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 16:32:23.740 [user-agent,,,] 3176 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 16:32:23.820 [user-agent,,,] 3176 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:32:23.914 [user-agent,,,] 3176 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 16:32:24.761 [user-agent,,,] 3176 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 16:32:24.783 [user-agent,,,] 3176 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 16:32:24.785 [user-agent,,,] 3176 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 16:32:25.028 [user-agent,,,] 3176 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 16:32:25.029 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2474 ms
+2017-11-07 16:32:25.289 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 16:32:25.301 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 16:32:25.301 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 16:32:25.302 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 16:32:25.302 [user-agent,,,] 3176 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 16:32:25.425 [user-agent,,,] 3176 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 16:32:25 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 16:32:25.455 [user-agent,,,] 3176 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 16:32:25.856 [user-agent,,,] 3176 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2017-11-07 16:32:25.857 [user-agent,,,] 3176 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 16:32:25 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 16:32:25.859 [user-agent,,,] 3176 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-11-07 16:32:25.885 [user-agent,,,] 3176 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-07 16:32:25.896 [user-agent,,,] 3176 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:501)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1189)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:261)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstances(NamedContextFactory.java:127)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:114)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:156)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.web.context.request.RequestContextHolder.currentRequestAttributes(RequestContextHolder.java:131)
+	at com.duo.user.agent.controller.FeignConfig.requestInterceptor(FeignConfig.java:16)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b.CGLIB$requestInterceptor$0(<generated>)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b$$FastClassBySpringCGLIB$$a66750f8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b.requestInterceptor(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 47 common frames omitted
+
+2017-11-07 18:02:32.032 [user-agent,,,] 9192 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e: startup date [Tue Nov 07 18:02:32 CST 2017]; root of context hierarchy
+2017-11-07 18:02:32.453 [user-agent,,,] 9192 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:02:32.490 [user-agent,,,] 9192 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 18:02:33.649 [user-agent,,,] 9192 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 18:02:33.670 [user-agent,,,] 9192 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d: startup date [Tue Nov 07 18:02:33 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e
+2017-11-07 18:02:34.620 [user-agent,,,] 9192 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 18:02:34.789 [user-agent,,,] 9192 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1e4c1a8f-4982-351c-b68e-ee44978d0679
+2017-11-07 18:02:34.862 [user-agent,,,] 9192 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:02:34.950 [user-agent,,,] 9192 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 18:02:35.628 [user-agent,,,] 9192 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 18:02:35.645 [user-agent,,,] 9192 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 18:02:35.647 [user-agent,,,] 9192 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 18:02:35.912 [user-agent,,,] 9192 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 18:02:35.913 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2243 ms
+2017-11-07 18:02:36.150 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 18:02:36.158 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 18:02:36.159 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 18:02:36.159 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 18:02:36.159 [user-agent,,,] 9192 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 18:02:36.287 [user-agent,,,] 9192 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 18:02:36 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 18:02:36.311 [user-agent,,,] 9192 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:02:36.690 [user-agent,,,] 9192 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2017-11-07 18:02:36.691 [user-agent,,,] 9192 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 18:02:36 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 18:02:36.693 [user-agent,,,] 9192 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-11-07 18:02:36.719 [user-agent,,,] 9192 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-07 18:02:36.734 [user-agent,,,] 9192 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:501)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1189)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:261)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstances(NamedContextFactory.java:127)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:114)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:156)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.web.context.request.RequestContextHolder.currentRequestAttributes(RequestContextHolder.java:131)
+	at com.duo.user.agent.controller.FeignConfig.requestInterceptor(FeignConfig.java:16)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b.CGLIB$requestInterceptor$0(<generated>)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b$$FastClassBySpringCGLIB$$a66750f8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at com.duo.user.agent.controller.FeignConfig$$EnhancerBySpringCGLIB$$3acdb99b.requestInterceptor(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 47 common frames omitted
+
+2017-11-07 18:05:43.683 [user-agent,,,] 7404 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e: startup date [Tue Nov 07 18:05:43 CST 2017]; root of context hierarchy
+2017-11-07 18:05:44.186 [user-agent,,,] 7404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:05:44.240 [user-agent,,,] 7404 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 18:05:45.187 [user-agent,,,] 7404 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-11-07 18:05:45.212 [user-agent,,,] 7404 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d: startup date [Tue Nov 07 18:05:45 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@649bec2e
+2017-11-07 18:05:46.135 [user-agent,,,] 7404 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-11-07 18:05:46.343 [user-agent,,,] 7404 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e951a7db-529c-33bf-9364-99a3ebd4e549
+2017-11-07 18:05:46.434 [user-agent,,,] 7404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:05:46.530 [user-agent,,,] 7404 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e47b4863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-07 18:05:47.262 [user-agent,,,] 7404 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-11-07 18:05:47.279 [user-agent,,,] 7404 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-11-07 18:05:47.280 [user-agent,,,] 7404 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-11-07 18:05:47.504 [user-agent,,,] 7404 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-07 18:05:47.505 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2293 ms
+2017-11-07 18:05:47.739 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-07 18:05:47.747 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-07 18:05:47.748 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-07 18:05:47.751 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-07 18:05:47.752 [user-agent,,,] 7404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-07 18:05:47.863 [user-agent,,,] 7404 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 18:05:47 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 18:05:47.895 [user-agent,,,] 7404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-07 18:05:48.317 [user-agent,,,] 7404 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2017-11-07 18:05:48.319 [user-agent,,,] 7404 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c6634d: startup date [Tue Nov 07 18:05:47 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cfcd46d
+2017-11-07 18:05:48.324 [user-agent,,,] 7404 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-11-07 18:05:48.344 [user-agent,,,] 7404 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-07 18:05:48.355 [user-agent,,,] 7404 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestInterceptor' defined in class path resource [com/duo/user/agent/controller/FeignConfig2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:501)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1189)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:261)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:265)
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstances(NamedContextFactory.java:127)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:114)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:156)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [feign.RequestInterceptor]: Factory method 'requestInterceptor' threw exception; nested exception is java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at org.springframework.web.context.request.RequestContextHolder.currentRequestAttributes(RequestContextHolder.java:131)
+	at com.duo.user.agent.controller.FeignConfig2.requestInterceptor(FeignConfig2.java:16)
+	at com.duo.user.agent.controller.FeignConfig2$$EnhancerBySpringCGLIB$$7711666d.CGLIB$requestInterceptor$0(<generated>)
+	at com.duo.user.agent.controller.FeignConfig2$$EnhancerBySpringCGLIB$$7711666d$$FastClassBySpringCGLIB$$111177c5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at com.duo.user.agent.controller.FeignConfig2$$EnhancerBySpringCGLIB$$7711666d.requestInterceptor(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 47 common frames omitted
+

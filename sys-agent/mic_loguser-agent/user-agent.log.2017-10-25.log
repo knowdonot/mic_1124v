@@ -1,0 +1,503 @@
+2017-10-25 15:44:18.436 [user-agent,,,] 1388 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4: startup date [Wed Oct 25 15:44:18 CST 2017]; root of context hierarchy
+2017-10-25 15:44:19.974 [user-agent,,,] 1388 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 15:44:20.020 [user-agent,,,] 1388 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 15:44:21.723 [user-agent,,,] 1388 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-25 15:44:21.770 [user-agent,,,] 1388 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 15:44:21 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 15:44:23.518 [user-agent,,,] 1388 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-25 15:44:23.857 [user-agent,,,] 1388 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e538edcf-c077-32e8-99b3-5ec2166244ef
+2017-10-25 15:44:23.989 [user-agent,,,] 1388 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 15:44:24.162 [user-agent,,,] 1388 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 15:44:25.824 [user-agent,,,] 1388 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-25 15:44:25.847 [user-agent,,,] 1388 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-25 15:44:25.861 [user-agent,,,] 1388 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-25 15:44:26.098 [user-agent,,,] 1388 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-25 15:44:26.099 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4329 ms
+2017-10-25 15:44:26.334 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 15:44:26.343 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 15:44:26.343 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 15:44:26.344 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 15:44:26.344 [user-agent,,,] 1388 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 15:44:26.449 [user-agent,,,] 1388 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a7d1b47: startup date [Wed Oct 25 15:44:26 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 15:44:26.530 [user-agent,,,] 1388 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 15:44:28.071 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 15:44:21 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 15:44:28.193 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-25 15:44:28.195 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-25 15:44:28.196 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-25 15:44:28.197 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-25 15:44:28.197 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-25 15:44:28.198 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-25 15:44:28.200 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-25 15:44:28.202 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-25 15:44:28.216 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-25 15:44:28.217 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-25 15:44:28.217 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-25 15:44:28.217 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-25 15:44:28.218 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-25 15:44:28.219 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-25 15:44:28.219 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-25 15:44:28.221 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-25 15:44:28.225 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 15:44:28.226 [user-agent,,,] 1388 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 15:44:28.282 [user-agent,,,] 1388 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 15:44:28.282 [user-agent,,,] 1388 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 15:44:28.364 [user-agent,,,] 1388 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 15:44:28.859 [user-agent,,,] 1388 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 15:44:28.860 [user-agent,,,] 1388 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 15:44:28.870 [user-agent,,,] 1388 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 15:44:28.871 [user-agent,,,] 1388 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 15:44:28.992 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 15:44:29.014 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-25 15:44:29.017 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-25 15:44:29.019 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-25 15:44:29.023 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-25 15:44:29.045 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-25 15:44:29.066 [user-agent,,,] 1388 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3dd1dc90,type=ConfigurationPropertiesRebinder]
+2017-10-25 15:44:29.313 [user-agent,,,] 1388 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-25 15:44:29.328 [user-agent,,,] 1388 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-25 15:44:30.568 [user-agent,,,] 1388 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-25 15:44:30.571 [user-agent,,,] 1388 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-25 15:44:30.826 [user-agent,,,] 1388 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-25 15:44:30.826 [user-agent,,,] 1388 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-25 15:44:31.359 [user-agent,,,] 1388 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 15:44:31.804 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-25 15:44:31.804 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-25 15:44:31.804 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-25 15:44:31.805 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-25 15:44:31.805 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-25 15:44:31.805 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-25 15:44:31.805 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-25 15:44:32.155 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-25 15:44:32.163 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-25 15:44:32.170 [user-agent,,,] 1388 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-25 15:44:32.178 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1508917472177 with initial instances count: 1
+2017-10-25 15:44:32.225 [user-agent,,,] 1388 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-25 15:44:32.226 [user-agent,,,] 1388 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1508917472226, current=UP, previous=STARTING]
+2017-10-25 15:44:32.229 [user-agent,,,] 1388 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-25 15:44:32.342 [user-agent,,,] 1388 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-25 15:44:32.345 [user-agent,,,] 1388 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-25 15:44:32.351 [user-agent,,,] 1388 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 16.607 seconds (JVM running for 17.869)
+2017-10-25 15:44:32.466 [user-agent,,,] 1388 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-25 15:46:14.167 [user-agent,,,] 1388 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 15:46:14.168 [user-agent,,,] 1388 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 15:46:14.219 [user-agent,,,] 1388 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2017-10-25 15:46:14.732 [user-agent,,,] 1388 --- [strix-sys-api-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6e3d314f: startup date [Wed Oct 25 15:46:14 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 15:46:14.798 [user-agent,,,] 1388 --- [strix-sys-api-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 15:46:15.109 [user-agent,,,] 1388 --- [strix-sys-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: sys-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-10-25 15:46:15.137 [user-agent,,,] 1388 --- [strix-sys-api-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-sys-api
+2017-10-25 15:46:15.181 [user-agent,,,] 1388 --- [strix-sys-api-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client:sys-api instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-10-25 15:46:15.205 [user-agent,,,] 1388 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2017-10-25 15:46:15.240 [user-agent,,,] 1388 --- [strix-sys-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: sys-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-10-25 15:46:15.243 [user-agent,,,] 1388 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client sys-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[Josiah-PC:2222],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:Josiah-PC:2222;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@9664c5f
+2017-10-25 15:46:16.177 [user-agent,,,] 1388 --- [nio-1111-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.exception.HystrixRuntimeException: IMenuService#getSysByUser(String) timed-out and no fallback available.] with root cause
+
+java.util.concurrent.TimeoutException: null
+	at com.netflix.hystrix.AbstractCommand.handleTimeoutViaFallback(AbstractCommand.java:980)
+	at com.netflix.hystrix.AbstractCommand.access$500(AbstractCommand.java:59)
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:595)
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:587)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$1.run(AbstractCommand.java:1121)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:41)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:37)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable.run(HystrixContextRunnable.java:57)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$2.tick(AbstractCommand.java:1138)
+	at com.netflix.hystrix.util.HystrixTimer$1.run(HystrixTimer.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-10-25 15:46:16.208 [user-agent,,,] 1388 --- [erListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: sys-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-10-25 15:49:31.813 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 15:54:31.821 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 15:59:31.840 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:04:31.847 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:09:31.854 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:14:31.861 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:19:31.867 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:24:31.875 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:29:31.881 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:34:31.888 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:39:31.895 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:44:31.901 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:49:31.907 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:54:31.915 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 16:59:31.921 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:04:31.927 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:09:31.934 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:14:31.940 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:19:31.946 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:24:31.952 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:29:31.959 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:34:31.965 [user-agent,,,] 1388 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:36:17.201 [user-agent,,,] 1388 --- [nio-1111-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.exception.HystrixRuntimeException: IMenuService#getSysByUser(String) timed-out and no fallback available.] with root cause
+
+java.util.concurrent.TimeoutException: null
+	at com.netflix.hystrix.AbstractCommand.handleTimeoutViaFallback(AbstractCommand.java:980)
+	at com.netflix.hystrix.AbstractCommand.access$500(AbstractCommand.java:59)
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:595)
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:587)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$1.run(AbstractCommand.java:1121)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:41)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:37)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable.run(HystrixContextRunnable.java:57)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$2.tick(AbstractCommand.java:1138)
+	at com.netflix.hystrix.util.HystrixTimer$1.run(HystrixTimer.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-10-25 17:41:07.732 [user-agent,,,] 7164 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4: startup date [Wed Oct 25 17:41:07 CST 2017]; root of context hierarchy
+2017-10-25 17:41:08.226 [user-agent,,,] 7164 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 17:41:08.259 [user-agent,,,] 7164 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 17:41:09.390 [user-agent,,,] 7164 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-25 17:41:09.457 [user-agent,,,] 7164 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 17:41:09 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 17:41:10.865 [user-agent,,,] 7164 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-25 17:41:11.066 [user-agent,,,] 7164 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=05b87ee2-c4b6-3346-a0e2-a2ea0f833d48
+2017-10-25 17:41:11.169 [user-agent,,,] 7164 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 17:41:11.266 [user-agent,,,] 7164 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 17:41:13.232 [user-agent,,,] 7164 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-25 17:41:13.254 [user-agent,,,] 7164 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-25 17:41:13.256 [user-agent,,,] 7164 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-25 17:41:13.639 [user-agent,,,] 7164 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-25 17:41:13.639 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4183 ms
+2017-10-25 17:41:13.893 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 17:41:13.899 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 17:41:13.900 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 17:41:13.901 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 17:41:13.901 [user-agent,,,] 7164 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 17:41:13.996 [user-agent,,,] 7164 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d98d138: startup date [Wed Oct 25 17:41:13 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 17:41:14.073 [user-agent,,,] 7164 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 17:41:15.548 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 17:41:09 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 17:41:15.657 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-25 17:41:15.665 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-25 17:41:15.666 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-25 17:41:15.667 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-25 17:41:15.668 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-25 17:41:15.668 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-25 17:41:15.672 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-25 17:41:15.672 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-25 17:41:15.676 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginapi/login],methods=[POST]}" onto public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+2017-10-25 17:41:15.684 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-25 17:41:15.685 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-25 17:41:15.686 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-25 17:41:15.686 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-25 17:41:15.687 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-25 17:41:15.687 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-25 17:41:15.687 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-25 17:41:15.687 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-25 17:41:15.690 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:41:15.691 [user-agent,,,] 7164 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:41:15.742 [user-agent,,,] 7164 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:41:15.742 [user-agent,,,] 7164 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:41:15.812 [user-agent,,,] 7164 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:41:16.296 [user-agent,,,] 7164 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 17:41:16.297 [user-agent,,,] 7164 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 17:41:16.307 [user-agent,,,] 7164 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 17:41:16.308 [user-agent,,,] 7164 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 17:41:16.413 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 17:41:16.429 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-25 17:41:16.434 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-25 17:41:16.445 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-25 17:41:16.449 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-25 17:41:16.470 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-25 17:41:16.495 [user-agent,,,] 7164 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3dd1dc90,type=ConfigurationPropertiesRebinder]
+2017-10-25 17:41:16.897 [user-agent,,,] 7164 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-25 17:41:16.909 [user-agent,,,] 7164 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-25 17:41:18.558 [user-agent,,,] 7164 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-25 17:41:18.561 [user-agent,,,] 7164 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-25 17:41:18.761 [user-agent,,,] 7164 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-25 17:41:18.761 [user-agent,,,] 7164 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-25 17:41:19.257 [user-agent,,,] 7164 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:41:19.612 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-25 17:41:19.612 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-25 17:41:19.614 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-25 17:41:19.614 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-25 17:41:19.614 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-25 17:41:19.614 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-25 17:41:19.614 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-25 17:41:19.967 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-25 17:41:19.972 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-25 17:41:19.976 [user-agent,,,] 7164 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-25 17:41:19.983 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1508924479983 with initial instances count: 4
+2017-10-25 17:41:20.065 [user-agent,,,] 7164 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-25 17:41:20.066 [user-agent,,,] 7164 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1508924480066, current=UP, previous=STARTING]
+2017-10-25 17:41:20.188 [user-agent,,,] 7164 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-25 17:41:20.189 [user-agent,,,] 7164 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-25 17:41:20.193 [user-agent,,,] 7164 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 14.09 seconds (JVM running for 14.781)
+2017-10-25 17:41:20.490 [user-agent,,,] 7164 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-25 17:41:20.550 [user-agent,,,] 7164 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-25 17:46:19.624 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:51:19.631 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 17:56:19.638 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:01:19.644 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:06:19.651 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:11:19.657 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:16:19.664 [user-agent,,,] 7164 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:18:47.338 [user-agent,,,] 8704 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4: startup date [Wed Oct 25 18:18:47 CST 2017]; root of context hierarchy
+2017-10-25 18:18:47.823 [user-agent,,,] 8704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:18:47.858 [user-agent,,,] 8704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:18:48.957 [user-agent,,,] 8704 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-25 18:18:48.978 [user-agent,,,] 8704 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 18:18:48 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 18:18:50.189 [user-agent,,,] 8704 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-25 18:18:50.425 [user-agent,,,] 8704 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef5f2cf9-0db0-3fbb-ae77-4ba46d085b97
+2017-10-25 18:18:50.535 [user-agent,,,] 8704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:18:50.661 [user-agent,,,] 8704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:18:51.913 [user-agent,,,] 8704 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-25 18:18:51.940 [user-agent,,,] 8704 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-25 18:18:51.942 [user-agent,,,] 8704 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-25 18:18:52.213 [user-agent,,,] 8704 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-25 18:18:52.213 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3235 ms
+2017-10-25 18:18:52.432 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 18:18:52.442 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 18:18:52.442 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 18:18:52.443 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 18:18:52.443 [user-agent,,,] 8704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 18:18:52.545 [user-agent,,,] 8704 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f51431: startup date [Wed Oct 25 18:18:52 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 18:18:52.580 [user-agent,,,] 8704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:18:53.136 [user-agent,,,] 8704 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Method has too many Body parameters: public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+2017-10-25 18:18:53.137 [user-agent,,,] 8704 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f51431: startup date [Wed Oct 25 18:18:52 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 18:18:53.140 [user-agent,,,] 8704 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-10-25 18:18:53.209 [user-agent,,,] 8704 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-25 18:18:53.221 [user-agent,,,] 8704 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Method has too many Body parameters: public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:592)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.duo.user.agent.UserAgentApplication.main(UserAgentApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.duo.user.agent.rpc.ILoginService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Method has too many Body parameters: public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1258)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Method has too many Body parameters: public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+	at feign.Util.checkState(Util.java:128)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:114)
+	at org.springframework.cloud.netflix.feign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:133)
+	at feign.Contract$BaseContract.parseAndValidatateMetadata(Contract.java:64)
+	at feign.hystrix.HystrixDelegatingContract.parseAndValidatateMetadata(HystrixDelegatingContract.java:34)
+	at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:146)
+	at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:53)
+	at feign.Feign$Builder.target(Feign.java:209)
+	at org.springframework.cloud.netflix.feign.HystrixTargeter.target(HystrixTargeter.java:48)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:146)
+	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:167)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 29 common frames omitted
+
+2017-10-25 18:20:26.975 [user-agent,,,] 9748 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4: startup date [Wed Oct 25 18:20:26 CST 2017]; root of context hierarchy
+2017-10-25 18:20:27.432 [user-agent,,,] 9748 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:20:27.472 [user-agent,,,] 9748 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:20:28.617 [user-agent,,,] 9748 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-25 18:20:28.642 [user-agent,,,] 9748 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 18:20:28 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 18:20:29.782 [user-agent,,,] 9748 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-25 18:20:30.025 [user-agent,,,] 9748 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef5f2cf9-0db0-3fbb-ae77-4ba46d085b97
+2017-10-25 18:20:30.135 [user-agent,,,] 9748 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:20:30.249 [user-agent,,,] 9748 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ce43d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:20:31.310 [user-agent,,,] 9748 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-25 18:20:31.339 [user-agent,,,] 9748 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-25 18:20:31.354 [user-agent,,,] 9748 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-25 18:20:31.619 [user-agent,,,] 9748 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-25 18:20:31.619 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2977 ms
+2017-10-25 18:20:31.835 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 18:20:31.843 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 18:20:31.844 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 18:20:31.845 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 18:20:31.845 [user-agent,,,] 9748 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 18:20:31.968 [user-agent,,,] 9748 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f51431: startup date [Wed Oct 25 18:20:31 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90
+2017-10-25 18:20:32.006 [user-agent,,,] 9748 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:20:33.652 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3dd1dc90: startup date [Wed Oct 25 18:20:28 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ace1ed4
+2017-10-25 18:20:33.760 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-10-25 18:20:33.763 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String)
+2017-10-25 18:20:33.767 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-25 18:20:33.768 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-25 18:20:33.768 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-25 18:20:33.768 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-25 18:20:33.768 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-25 18:20:33.769 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-25 18:20:33.769 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-25 18:20:33.769 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-25 18:20:33.770 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginapi/login],methods=[POST]}" onto public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+2017-10-25 18:20:33.774 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-25 18:20:33.775 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-25 18:20:33.775 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-25 18:20:33.775 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-25 18:20:33.776 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-25 18:20:33.776 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-25 18:20:33.776 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-25 18:20:33.776 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-25 18:20:33.778 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 18:20:33.779 [user-agent,,,] 9748 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 18:20:33.837 [user-agent,,,] 9748 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:20:33.837 [user-agent,,,] 9748 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:20:33.918 [user-agent,,,] 9748 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:20:34.409 [user-agent,,,] 9748 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 18:20:34.412 [user-agent,,,] 9748 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 18:20:34.423 [user-agent,,,] 9748 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 18:20:34.423 [user-agent,,,] 9748 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 18:20:34.556 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 18:20:34.574 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-25 18:20:34.576 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-25 18:20:34.580 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-25 18:20:34.585 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-25 18:20:34.609 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-25 18:20:34.643 [user-agent,,,] 9748 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3dd1dc90,type=ConfigurationPropertiesRebinder]
+2017-10-25 18:20:35.237 [user-agent,,,] 9748 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-25 18:20:35.251 [user-agent,,,] 9748 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-25 18:20:36.449 [user-agent,,,] 9748 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-25 18:20:36.451 [user-agent,,,] 9748 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-25 18:20:36.614 [user-agent,,,] 9748 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-25 18:20:36.615 [user-agent,,,] 9748 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-25 18:20:37.093 [user-agent,,,] 9748 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:20:37.422 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-25 18:20:37.423 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-25 18:20:37.424 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-25 18:20:37.424 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-25 18:20:37.424 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-25 18:20:37.424 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-25 18:20:37.424 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-25 18:20:37.901 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-25 18:20:37.904 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-25 18:20:37.908 [user-agent,,,] 9748 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-25 18:20:37.912 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1508926837912 with initial instances count: 4
+2017-10-25 18:20:37.960 [user-agent,,,] 9748 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-25 18:20:37.961 [user-agent,,,] 9748 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1508926837961, current=UP, previous=STARTING]
+2017-10-25 18:20:38.050 [user-agent,,,] 9748 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-25 18:20:38.053 [user-agent,,,] 9748 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-25 18:20:38.058 [user-agent,,,] 9748 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 12.868 seconds (JVM running for 13.517)
+2017-10-25 18:20:38.059 [user-agent,,,] 9748 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-25 18:20:38.178 [user-agent,,,] 9748 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-25 18:24:28.046 [user-agent,,,] 8404 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64: startup date [Wed Oct 25 18:24:28 CST 2017]; root of context hierarchy
+2017-10-25 18:24:29.106 [user-agent,,,] 8404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:24:29.238 [user-agent,,,] 8404 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ddafe7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:24:30.613 [user-agent,,,] 8404 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-25 18:24:30.645 [user-agent,,,] 8404 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@677b8e13: startup date [Wed Oct 25 18:24:30 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-10-25 18:24:31.992 [user-agent,,,] 8404 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-25 18:24:32.269 [user-agent,,,] 8404 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef5f2cf9-0db0-3fbb-ae77-4ba46d085b97
+2017-10-25 18:24:32.407 [user-agent,,,] 8404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:24:32.532 [user-agent,,,] 8404 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ddafe7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-25 18:24:33.746 [user-agent,,,] 8404 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-25 18:24:33.774 [user-agent,,,] 8404 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-25 18:24:33.790 [user-agent,,,] 8404 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-25 18:24:34.211 [user-agent,,,] 8404 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-25 18:24:34.213 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3569 ms
+2017-10-25 18:24:34.596 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 18:24:34.605 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 18:24:34.606 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 18:24:34.606 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 18:24:34.606 [user-agent,,,] 8404 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 18:24:34.788 [user-agent,,,] 8404 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e4e8fdf: startup date [Wed Oct 25 18:24:34 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@677b8e13
+2017-10-25 18:24:34.830 [user-agent,,,] 8404 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-25 18:24:36.890 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@677b8e13: startup date [Wed Oct 25 18:24:30 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-10-25 18:24:37.016 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String)
+2017-10-25 18:24:37.019 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-10-25 18:24:37.030 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-25 18:24:37.031 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-25 18:24:37.031 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-25 18:24:37.032 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-25 18:24:37.034 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-25 18:24:37.036 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-25 18:24:37.037 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-25 18:24:37.037 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-25 18:24:37.039 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginapi/login],methods=[POST]}" onto public abstract java.lang.String com.duo.user.agent.rpc.ILoginService.login(java.lang.String,java.lang.String)
+2017-10-25 18:24:37.047 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-25 18:24:37.048 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-25 18:24:37.049 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-25 18:24:37.049 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-25 18:24:37.051 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-25 18:24:37.055 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-25 18:24:37.055 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-25 18:24:37.056 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-25 18:24:37.064 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 18:24:37.064 [user-agent,,,] 8404 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 18:24:37.189 [user-agent,,,] 8404 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:24:37.189 [user-agent,,,] 8404 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:24:37.294 [user-agent,,,] 8404 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 18:24:37.916 [user-agent,,,] 8404 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 18:24:37.916 [user-agent,,,] 8404 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 18:24:37.927 [user-agent,,,] 8404 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-25 18:24:37.927 [user-agent,,,] 8404 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-25 18:24:38.288 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 18:24:38.318 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-25 18:24:38.321 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-25 18:24:38.338 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-25 18:24:38.343 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-25 18:24:38.365 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-25 18:24:38.398 [user-agent,,,] 8404 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=677b8e13,type=ConfigurationPropertiesRebinder]
+2017-10-25 18:24:39.007 [user-agent,,,] 8404 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-25 18:24:39.025 [user-agent,,,] 8404 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-25 18:24:42.091 [user-agent,,,] 8404 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-25 18:24:42.094 [user-agent,,,] 8404 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-25 18:24:42.331 [user-agent,,,] 8404 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-25 18:24:42.331 [user-agent,,,] 8404 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-25 18:24:43.108 [user-agent,,,] 8404 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-25 18:24:43.396 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-25 18:24:43.619 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-25 18:24:43.621 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-25 18:24:43.627 [user-agent,,,] 8404 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-25 18:24:43.633 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1508927083632 with initial instances count: 0
+2017-10-25 18:24:43.707 [user-agent,,,] 8404 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-25 18:24:43.709 [user-agent,,,] 8404 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1508927083709, current=UP, previous=STARTING]
+2017-10-25 18:24:44.001 [user-agent,,,] 8404 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-25 18:24:44.007 [user-agent,,,] 8404 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-25 18:24:44.012 [user-agent,,,] 8404 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-25 18:24:44.024 [user-agent,,,] 8404 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 17.99 seconds (JVM running for 21.627)
+2017-10-25 18:24:44.143 [user-agent,,,] 8404 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-25 18:25:13.622 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2017-10-25 18:25:13.623 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-25 18:25:13.679 [user-agent,,,] 8404 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-25 18:27:00.916 [user-agent,,,] 8404 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 18:27:00.916 [user-agent,,,] 8404 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 18:27:00.955 [user-agent,,,] 8404 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms

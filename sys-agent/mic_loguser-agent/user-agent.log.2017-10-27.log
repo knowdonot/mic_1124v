@@ -1,0 +1,381 @@
+2017-10-27 13:34:17.366 [user-agent,,,] 5764 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@112f364d: startup date [Fri Oct 27 13:34:17 CST 2017]; root of context hierarchy
+2017-10-27 13:34:18.260 [user-agent,,,] 5764 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:34:18.330 [user-agent,,,] 5764 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ec2c0e8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-27 13:34:23.691 [user-agent,,,] 5764 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-27 13:34:23.719 [user-agent,,,] 5764 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8a46b7: startup date [Fri Oct 27 13:34:23 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@112f364d
+2017-10-27 13:34:26.061 [user-agent,,,] 5764 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-27 13:34:26.479 [user-agent,,,] 5764 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0be08427-6dc0-3b19-ac8e-e601c927b5be
+2017-10-27 13:34:26.750 [user-agent,,,] 5764 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:34:26.970 [user-agent,,,] 5764 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ec2c0e8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-27 13:34:30.161 [user-agent,,,] 5764 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-27 13:34:30.190 [user-agent,,,] 5764 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-27 13:34:30.207 [user-agent,,,] 5764 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-27 13:34:30.582 [user-agent,,,] 5764 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-27 13:34:30.883 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7164 ms
+2017-10-27 13:34:31.663 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-27 13:34:31.677 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-27 13:34:31.678 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-27 13:34:31.679 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-27 13:34:31.679 [user-agent,,,] 5764 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-27 13:34:31.883 [user-agent,,,] 5764 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70c69586: startup date [Fri Oct 27 13:34:31 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8a46b7
+2017-10-27 13:34:31.920 [user-agent,,,] 5764 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:34:33.028 [user-agent,,,] 5764 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@416d56f2: startup date [Fri Oct 27 13:34:33 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8a46b7
+2017-10-27 13:34:33.057 [user-agent,,,] 5764 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:34:35.536 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8a46b7: startup date [Fri Oct 27 13:34:23 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@112f364d
+2017-10-27 13:34:35.722 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-10-27 13:34:35.723 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public void com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest)
+2017-10-27 13:34:36.109 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-27 13:34:36.109 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-27 13:34:36.110 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-27 13:34:36.110 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-27 13:34:36.110 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-27 13:34:36.111 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-27 13:34:36.111 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-27 13:34:36.111 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-27 13:34:36.119 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-27 13:34:36.120 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-27 13:34:36.121 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-27 13:34:36.123 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-27 13:34:36.123 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-27 13:34:36.124 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-27 13:34:36.127 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-27 13:34:36.128 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-27 13:34:36.132 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-27 13:34:36.133 [user-agent,,,] 5764 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-27 13:34:36.211 [user-agent,,,] 5764 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:34:36.211 [user-agent,,,] 5764 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:34:36.297 [user-agent,,,] 5764 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:34:38.015 [user-agent,,,] 5764 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-27 13:34:38.016 [user-agent,,,] 5764 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-27 13:34:38.044 [user-agent,,,] 5764 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-27 13:34:38.044 [user-agent,,,] 5764 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-27 13:34:41.126 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-27 13:34:41.149 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-27 13:34:41.154 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-27 13:34:41.158 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-27 13:34:41.163 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-27 13:34:41.194 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-27 13:34:41.230 [user-agent,,,] 5764 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7e8a46b7,type=ConfigurationPropertiesRebinder]
+2017-10-27 13:34:41.547 [user-agent,,,] 5764 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-27 13:34:41.564 [user-agent,,,] 5764 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-27 13:34:43.396 [user-agent,,,] 5764 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-27 13:34:43.404 [user-agent,,,] 5764 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-27 13:34:43.669 [user-agent,,,] 5764 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-27 13:34:43.670 [user-agent,,,] 5764 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-27 13:34:44.917 [user-agent,,,] 5764 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-27 13:34:47.348 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-27 13:34:47.349 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-27 13:34:48.006 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-27 13:34:48.033 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-27 13:34:48.038 [user-agent,,,] 5764 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-27 13:34:48.048 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509082488048 with initial instances count: 1
+2017-10-27 13:34:48.174 [user-agent,,,] 5764 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-27 13:34:48.179 [user-agent,,,] 5764 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1509082488179, current=UP, previous=STARTING]
+2017-10-27 13:34:48.274 [user-agent,,,] 5764 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-27 13:34:48.594 [user-agent,,,] 5764 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-27 13:34:48.598 [user-agent,,,] 5764 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-27 13:34:48.606 [user-agent,,,] 5764 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 35.043 seconds (JVM running for 36.56)
+2017-10-27 13:34:48.710 [user-agent,,,] 5764 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-27 13:35:55.876 [user-agent,,,] 5764 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-27 13:35:55.877 [user-agent,,,] 5764 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-27 13:35:55.915 [user-agent,,,] 5764 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2017-10-27 13:35:56.530 [user-agent,,,] 5764 --- [strix-sys-api-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b47c6a9: startup date [Fri Oct 27 13:35:56 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8a46b7
+2017-10-27 13:35:56.600 [user-agent,,,] 5764 --- [strix-sys-api-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:35:56.939 [user-agent,,,] 5764 --- [strix-sys-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: sys-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-10-27 13:35:56.975 [user-agent,,,] 5764 --- [strix-sys-api-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-sys-api
+2017-10-27 13:35:57.041 [user-agent,,,] 5764 --- [strix-sys-api-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client:sys-api instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-10-27 13:35:57.047 [user-agent,,,] 5764 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2017-10-27 13:35:57.057 [user-agent,,,] 5764 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client sys-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@63f93e76
+2017-10-27 13:38:11.015 [user-agent,,,] 8348 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64: startup date [Fri Oct 27 13:38:11 CST 2017]; root of context hierarchy
+2017-10-27 13:38:11.500 [user-agent,,,] 8348 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:38:11.575 [user-agent,,,] 8348 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$933b7d46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-27 13:38:12.967 [user-agent,,,] 8348 --- [           main] com.duo.user.agent.UserAgentApplication  : No active profile set, falling back to default profiles: default
+2017-10-27 13:38:12.999 [user-agent,,,] 8348 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4abf3f0: startup date [Fri Oct 27 13:38:12 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-10-27 13:38:14.127 [user-agent,,,] 8348 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2017-10-27 13:38:14.306 [user-agent,,,] 8348 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0be08427-6dc0-3b19-ac8e-e601c927b5be
+2017-10-27 13:38:14.403 [user-agent,,,] 8348 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:38:14.513 [user-agent,,,] 8348 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$933b7d46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-27 13:38:15.328 [user-agent,,,] 8348 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2017-10-27 13:38:15.342 [user-agent,,,] 8348 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-10-27 13:38:15.344 [user-agent,,,] 8348 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-10-27 13:38:15.546 [user-agent,,,] 8348 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-27 13:38:15.546 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2547 ms
+2017-10-27 13:38:15.853 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-27 13:38:15.863 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-27 13:38:15.864 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-27 13:38:15.864 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-27 13:38:15.865 [user-agent,,,] 8348 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-27 13:38:16.004 [user-agent,,,] 8348 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@663f237a: startup date [Fri Oct 27 13:38:16 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4abf3f0
+2017-10-27 13:38:16.030 [user-agent,,,] 8348 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:38:16.612 [user-agent,,,] 8348 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@41ccb3b9: startup date [Fri Oct 27 13:38:16 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4abf3f0
+2017-10-27 13:38:16.624 [user-agent,,,] 8348 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:38:17.606 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4abf3f0: startup date [Fri Oct 27 13:38:12 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ccbeb64
+2017-10-27 13:38:17.734 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.LoginController.toLogin()
+2017-10-27 13:38:17.736 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public void com.duo.user.agent.controller.LoginController.loginSubmit(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest)
+2017-10-27 13:38:17.742 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/],methods=[POST]}" onto public int com.duo.user.agent.controller.MenuController.add(com.duo.common.po.Menu)
+2017-10-27 13:38:17.743 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/sys],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserTopMenu()
+2017-10-27 13:38:17.743 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/list],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuList()
+2017-10-27 13:38:17.744 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/parent/{parentId}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getUserMenu(java.lang.String)
+2017-10-27 13:38:17.744 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/user/all],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenuAll()
+2017-10-27 13:38:17.744 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[GET]}" onto public java.lang.String com.duo.user.agent.controller.MenuController.getMenu(java.lang.String)
+2017-10-27 13:38:17.745 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[DELETE]}" onto public int com.duo.user.agent.controller.MenuController.deleteMenu(java.lang.String)
+2017-10-27 13:38:17.745 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/{id}],methods=[PUT]}" onto public int com.duo.user.agent.controller.MenuController.updateMenu(java.lang.String,com.duo.common.po.Menu)
+2017-10-27 13:38:17.749 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/sys],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getSysByUser(java.lang.String)
+2017-10-27 13:38:17.750 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/list],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusList(java.lang.String)
+2017-10-27 13:38:17.750 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/all],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenuAll(java.lang.String)
+2017-10-27 13:38:17.751 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/save],methods=[POST]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.addMenu(com.duo.common.po.Menu)
+2017-10-27 13:38:17.751 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenu(java.lang.String)
+2017-10-27 13:38:17.751 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/{id}],methods=[DELETE]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.deleteMenu(java.lang.String)
+2017-10-27 13:38:17.752 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/menu/update],methods=[PUT]}" onto public abstract int com.duo.user.agent.rpc.IMenuService.updateMenu(com.duo.common.po.Menu)
+2017-10-27 13:38:17.752 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menuapi/{username}/menu/parent/{parentId}],methods=[GET]}" onto public abstract java.lang.String com.duo.user.agent.rpc.IMenuService.getMenusByUsername(java.lang.String,java.lang.String)
+2017-10-27 13:38:17.755 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-27 13:38:17.755 [user-agent,,,] 8348 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-27 13:38:17.851 [user-agent,,,] 8348 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:38:17.852 [user-agent,,,] 8348 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:38:17.961 [user-agent,,,] 8348 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-27 13:38:18.585 [user-agent,,,] 8348 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-27 13:38:18.585 [user-agent,,,] 8348 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-27 13:38:18.595 [user-agent,,,] 8348 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-10-27 13:38:18.595 [user-agent,,,] 8348 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-10-27 13:38:18.918 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-27 13:38:18.932 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-10-27 13:38:18.933 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-10-27 13:38:18.935 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-10-27 13:38:18.939 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-10-27 13:38:18.958 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-10-27 13:38:18.976 [user-agent,,,] 8348 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4abf3f0,type=ConfigurationPropertiesRebinder]
+2017-10-27 13:38:19.166 [user-agent,,,] 8348 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-10-27 13:38:19.182 [user-agent,,,] 8348 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-10-27 13:38:20.239 [user-agent,,,] 8348 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-10-27 13:38:20.242 [user-agent,,,] 8348 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-10-27 13:38:20.447 [user-agent,,,] 8348 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-10-27 13:38:20.448 [user-agent,,,] 8348 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-10-27 13:38:20.985 [user-agent,,,] 8348 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-27 13:38:21.361 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-10-27 13:38:21.362 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-10-27 13:38:21.658 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-10-27 13:38:21.662 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-10-27 13:38:21.668 [user-agent,,,] 8348 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-10-27 13:38:21.673 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509082701673 with initial instances count: 3
+2017-10-27 13:38:21.753 [user-agent,,,] 8348 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application sys-agent with eureka with status UP
+2017-10-27 13:38:21.755 [user-agent,,,] 8348 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1509082701755, current=UP, previous=STARTING]
+2017-10-27 13:38:21.828 [user-agent,,,] 8348 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111: registering service...
+2017-10-27 13:38:21.991 [user-agent,,,] 8348 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2017-10-27 13:38:21.993 [user-agent,,,] 8348 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2017-10-27 13:38:21.998 [user-agent,,,] 8348 --- [           main] com.duo.user.agent.UserAgentApplication  : Started UserAgentApplication in 12.446 seconds (JVM running for 13.125)
+2017-10-27 13:38:22.002 [user-agent,,,] 8348 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SYS-AGENT/Josiah-PC:sys-agent:1111 - registration status: 204
+2017-10-27 13:38:35.138 [user-agent,,,] 8348 --- [nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-27 13:38:35.139 [user-agent,,,] 8348 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-27 13:38:35.194 [user-agent,,,] 8348 --- [nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2017-10-27 13:38:35.729 [user-agent,,,] 8348 --- [strix-sys-api-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@491e7260: startup date [Fri Oct 27 13:38:35 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4abf3f0
+2017-10-27 13:38:35.820 [user-agent,,,] 8348 --- [strix-sys-api-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-27 13:38:36.194 [user-agent,,,] 8348 --- [strix-sys-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: sys-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-10-27 13:38:36.226 [user-agent,,,] 8348 --- [strix-sys-api-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-sys-api
+2017-10-27 13:38:36.278 [user-agent,,,] 8348 --- [strix-sys-api-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client:sys-api instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-10-27 13:38:36.290 [user-agent,,,] 8348 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2017-10-27 13:38:36.297 [user-agent,,,] 8348 --- [strix-sys-api-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client sys-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=sys-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5e8446f3
+2017-10-27 13:40:32.199 [user-agent,,,] 8348 --- [nio-1111-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.exception.HystrixRuntimeException: IMenuService#getSysByUser(String) failed and no fallback available.] with root cause
+
+com.netflix.client.ClientException: Load balancer does not have available server for client: sys-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:468)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10307)
+	at rx.Observable.subscribe(Observable.java:10274)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:445)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:342)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:102)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:108)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:301)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:297)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-10-27 13:40:36.545 [user-agent,,,] 8348 --- [nio-1111-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.exception.HystrixRuntimeException: IMenuService#getSysByUser(String) failed and no fallback available.] with root cause
+
+com.netflix.client.ClientException: Load balancer does not have available server for client: sys-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:468)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10307)
+	at rx.Observable.subscribe(Observable.java:10274)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:445)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:342)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:102)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:108)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:301)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:297)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-10-27 13:41:42.517 [user-agent,,,] 8348 --- [nio-1111-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.exception.HystrixRuntimeException: IMenuService#getSysByUser(String) failed and no fallback available.] with root cause
+
+com.netflix.client.ClientException: Load balancer does not have available server for client: sys-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:468)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10307)
+	at rx.Observable.subscribe(Observable.java:10274)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:445)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:342)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:102)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:108)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:301)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:297)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorSubscribeOn$1.call(OperatorSubscribeOn.java:94)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-10-27 13:43:21.367 [user-agent,,,] 8348 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-27 13:48:21.370 [user-agent,,,] 8348 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-10-27 13:53:21.372 [user-agent,,,] 8348 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
